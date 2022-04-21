@@ -1,0 +1,19 @@
+{
+    "reviews": [
+      {
+        "id": "1",
+        "title": "Review 1",
+        "body": "This is the book review."
+      },
+      {
+        "id": "2",
+        "title": "Review 2",
+        "body": "This is the book review."
+      },
+      {
+        "id": "3",
+        "title": "Review 3",
+        "body": "This is the book review."
+      }
+    ]
+  }
