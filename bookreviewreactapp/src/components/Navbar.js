@@ -7,7 +7,7 @@ export default function Navbar() {
     <div className="navbar">
         <nav>
             <Link to="/" className="brand">
-                <h1>Gretchen's Book Reviews</h1>
+                <h1>Gretchen's Book Recs</h1>
             </Link>
             <Link to="/about">About</Link>
             <Link to="/">Random Review</Link>
