@@ -2,18 +2,21 @@
     "reviews": [
       {
         "id": "1",
-        "title": "Review 1",
-        "body": "This is the book review."
+        "title": "The Goldfinch",
+        "author": "Donna Tartt",
+        "body": "The Goldfinch is told in retrospective first-person narration by Theodore 'Theo' Decker. As a thirteen-year-old boy, Theo's life is turned upside down when he and his mother visit the Metropolitan Museum of Art to see an exhibition of Dutch masterpieces, including a favorite painting of hers, Carel Fabritius's The Goldfinch. There, he becomes intrigued by a red-headed girl with an elderly man. A bomb explodes in the museum, killing his mother and several other visitors."
       },
       {
         "id": "2",
-        "title": "Review 2",
-        "body": "This is the book review."
+        "title": "Harry Potter and the Chamber of Secrets",
+        "author": "J.K. Rowling",
+        "body": "Harry Potter and the Chamber of Secrets is a fantasy novel written by British author J. K. Rowling and the second novel in the Harry Potter series. The plot follows Harry's second year at Hogwarts School of Witchcraft and Wizardry, during which a series of messages on the walls of the school's corridors warn that the 'Chamber of Secrets' has been opened and that the 'heir of Slytherin' would kill all pupils who do not come from all-magical families. These threats are found after attacks that leave residents of the school petrified. Throughout the year, Harry and his friends Ron and Hermione investigate the attacks."
       },
       {
         "id": "3",
-        "title": "Review 3",
-        "body": "This is the book review."
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "body": "Circe is a 2018 novel by American writer Madeline Miller. Set during the Greek Heroic Age, it is an adaptation of various Greek myths, most notably the Odyssey, as told from the perspective of the witch Circe. The novel explores Circe's origin story and narrates Circe's encounters with mythological figures such as Hermes, the Minotaur, Jason, and Medea, and ultimately her romance with Odysseus and his son, Telemachus."
       }
     ]
   }

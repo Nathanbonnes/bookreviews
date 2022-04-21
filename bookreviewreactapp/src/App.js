@@ -17,7 +17,7 @@ function App() {
           <Route path = "/about">
             <About />
           </Route>
-          <Route path = "/review/:id">
+          <Route path = "/reviews/:id">
             <Review />
           </Route>
         </Switch>
