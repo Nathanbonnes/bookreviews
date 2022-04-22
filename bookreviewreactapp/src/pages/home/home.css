@@ -2,3 +2,7 @@
     max-width: 1200px;
     margin: 60px auto;
 }
+
+.home image {
+    max-width: 20px;
+}

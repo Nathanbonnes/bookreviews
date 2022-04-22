@@ -33,8 +33,26 @@ export default function Review() {
         <>
         <h2 className="page-title">{review.title}</h2>
         <p>By {review.author}</p>
-        <p className="body">{review.body}</p>
+
+        <div className="image">
         <img src={review.coverurl}></img>
+        </div>
+
+        <div classsName="review-text">
+        <p className="body">{review.p1}</p>
+        <br></br>
+        <p className="body">{review.p2}</p>
+        <br></br>
+        <p className="body">{review.p3}</p>
+        <br></br>
+        <p className="body">{review.p4}</p>
+        <br></br>
+        <p className="body">{review.p5}</p>
+        <br></br>
+        <p className="body">{review.p6}</p>
+        <br></br>
+        </div>
+
       </>
       }
     </div>
