@@ -10,7 +10,7 @@ export default function Navbar() {
                 <h1>Gretchen's Book Recs</h1>
             </Link>
             <Link to="/about">About</Link>
-            <Link to="/">Random Review</Link>
+            <Link to="/">Random Rec</Link>
         </nav>
 
     </div>
