@@ -50,6 +50,8 @@ export default function Review() {
         <p className="body">{review.p5}</p>
         <br></br>
         <p className="body">{review.p6}</p>
+        
+        <p>Number of Docs in collection =</p>
         <br></br>
         </div>
 
