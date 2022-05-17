@@ -13,6 +13,7 @@ export default function Navbar() {
       const response = await fetch(random_num);
       const num = await response.text();
       setNum(num)
+      
     } catch (err) {
       console.error(err);
     }

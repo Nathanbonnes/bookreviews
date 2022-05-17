@@ -1,7 +1,7 @@
 
 def request_random_number():
-    with open('./microservice/request.txt', 'w') as a:
-        a.write("100")
+    with open('./microservice/pipeline.txt', 'w') as a:
+        a.write("50")
         a.close()
 
 
