@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+ 
+
 .review-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 30px auto;
   }
   .review-list .card {
     background: #fff;
@@ -52,4 +56,22 @@
     padding: 8px;
     border-radius: 4px;
     margin: auto;
+  }
+
+  .genre-list {
+    background: #fff;
+    color: #333;
+    padding: 6px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+    position: relative;
+
+  }
+
+  .genre-list .genre-button{
+    color: #555;
+    font-family: Raleway, sans-serif;
+    padding: 12px;
+    font-size: 0.8em;
+    margin: 22px;
   }

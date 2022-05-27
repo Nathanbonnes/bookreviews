@@ -32,11 +32,16 @@ export default function Review() {
       {review && 
         <>
         <h2 className="page-title">{review.title}</h2>
-        <p>By {review.author}</p>
+        <p className="author">By {review.author}</p>
+
+        <div className="tags">
+          <p>Tags: {review.tags}</p>
+        </div>
 
         <div className="image">
         <img src={review.coverurl}></img>
         </div>
+
 
         <div classsName="review-text">
         <p className="body">{review.p1}</p>
@@ -51,7 +56,6 @@ export default function Review() {
         <br></br>
         <p className="body">{review.p6}</p>
         
-        <p>Number of Docs in collection =</p>
         <br></br>
         </div>
 

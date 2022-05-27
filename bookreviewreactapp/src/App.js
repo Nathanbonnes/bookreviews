@@ -4,6 +4,7 @@ import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Review from './pages/review/Review';
 import Navbar from './components/Navbar';
+import Tag from './pages/tag/Tag'
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path = "/reviews/:id">
             <Review />
+          </Route>
+          <Route path = "/:tag">
+            <Tag />
           </Route>
         </Switch>
         </BrowserRouter>

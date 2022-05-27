@@ -1,20 +1,27 @@
-.review {
+.review{
     max-width: 1200px;
     margin: 40px auto;
     text-align: center;
     background: #fff;
     padding: 30px;
     box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 22px;
   }
 
 .review h2 {
-  margin: 20px auto;
+  margin: 2px auto;
 
 }
 
 p.body {
   max-width: 800px;
   padding: 0 0px 0px 300px;
+}
+
+.review .author{
+  margin: 20px auto;
+  font-size: 20px;
 }
 
 
@@ -27,4 +34,12 @@ p.body {
 .image{
   max-width: 300px;
   max-height: 60px;
+}
+
+.tags{
+  margin: auto;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 15px;
+
 }
