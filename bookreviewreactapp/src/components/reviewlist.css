@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
 
  
-
 .review-list {
+    box-sizing: border-box;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 3rem;
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 1.2em auto;
   }
+
+  @media (min-width: 800px) {
+    .review-list{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .review-list{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+
   .review-list .card {
     background: #fff;
     color: #333;
@@ -18,17 +31,21 @@
     transition: all 0.3s ease;
     position: relative;
   }
+
+
   .review-list .card:hover {
     transform: rotate(1deg);
   }
   .review-list .card h3 {
     color: #555;
     margin: auto;
+    text-align: center;
   }
   .review-list .card p {
     color: #999;
     font-size: 0.9em;
     margin: auto;
+    text-align: center;
   }
   .review-list .card div {
     color: #555;
@@ -40,7 +57,7 @@
   img {
     max-width: 300px;
     max-height: 300px;
-    padding: 50px 50px 0;
+    padding: 8px 50px 0;
     margin: 20px 20px
   }
 
@@ -71,7 +88,7 @@
   .genre-list .genre-button{
     color: #555;
     font-family: Raleway, sans-serif;
-    padding: 12px;
-    font-size: 0.8em;
-    margin: 22px;
+    padding: 0px;
+    font-size: 0.7em;
+    margin: 0px;
   }

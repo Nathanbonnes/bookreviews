@@ -18,7 +18,7 @@ export default function ReviewList({ reviews, tag }) {
   return (
     <div>
 
-    <div className="genre-list">
+    {/* <div className="genre-list">
     <Link className="genre-button" to={`/all_time_favorites`}>All Time Favorites</Link>
     <Link className="genre-button" to={`/historical_fiction`}>Historical Fiction</Link>
     <Link className="genre-button" to={`/mythology`}>Mythology</Link>
@@ -27,8 +27,8 @@ export default function ReviewList({ reviews, tag }) {
     <Link className="genre-button" to={`/family_drama`}>Family Drama</Link>
     <Link className="genre-button" to={`/fantasy`}>Fantasy</Link>
     <Link className="genre-button" to={`/romance`}>Romance</Link>
-
   </div>
+   */}
     <div className="review-list">
       {!isTag && reviews.map(review => (
         <div key={review.id} className="card">
